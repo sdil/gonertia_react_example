@@ -1,10 +1,15 @@
 {
-    "files": [],
     "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-        "@/*": ["./src/*"]
-      }
-    }
-  }
-  
+        "baseUrl": ".",
+        "jsx": "react",
+        "paths": {
+            "@/*": [
+                "resources/js/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "public/build"
+    ]
+}
