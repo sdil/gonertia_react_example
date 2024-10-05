@@ -9,18 +9,18 @@ This is inspired by [Vue Example w/ Gonertia](https://github.com/henrriusdev/gon
 1. Install dependencies
 
     ```sh
-    $ yarn
-    $ go mod tidy
+    yarn
+    go mod tidy
     ```
 2. Watch for changes in frontend code
 
     ```sh
-    $ yarn build-watch
+    yarn build-watch
     ```
 3. In a separate terminal, watch for changes in backend code
 
     ```sh
-    $ air
+    air
     ```
 
 ## How to contribute
