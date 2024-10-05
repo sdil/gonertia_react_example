@@ -10,9 +10,7 @@ export default defineConfig({
             buildDirectory: 'build',
             refresh: true,
         }),
-        react({
-            include: /\.(mdx|js|jsx|ts|tsx)$/
-        }),
+        react({ include: /\.(mdx|js|jsx|ts|tsx)$/ }),
     ],
     build: {
         manifest: true, // Generate manifest.json file

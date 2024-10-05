@@ -20,7 +20,7 @@ func main() {
 	mux.Handle("/home", i.Middleware(homeHandler(i)))
 	mux.Handle("/build/", http.StripPrefix("/build/", http.FileServer(http.Dir("./public/build"))))
 
-	http.ListenAndServe(":3000", mux)
+	http.ListenAndServe(":8000", mux)
 }
 
 func initInertia() *inertia.Inertia {

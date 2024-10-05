@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && vite build --config ssr.config.js"
+    "build": "vite build && vite build --config ssr.config.js",
+    "build-watch": "vite build --watch && vite build --config ssr.config.js"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.22",
