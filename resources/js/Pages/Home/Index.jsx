@@ -1,6 +1,16 @@
 import React from 'react';
 import { Head } from '@inertiajs/react';
 import { usePage } from '@inertiajs/react';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+
 
 export default function LoginPage() {
 
@@ -11,7 +21,18 @@ export default function LoginPage() {
       <Head title="Login" />
 
       <div className="w-full max-w-md">
-        { text }
+        <Card>
+          <CardHeader>
+            <CardTitle>{text}</CardTitle>
+            <CardDescription>Card Description</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Card Content</p>
+          </CardContent>
+          <CardFooter>
+            <p>Card Footer</p>
+          </CardFooter>
+        </Card>
       </div>
     </div>
   );
