@@ -115,7 +115,7 @@ func vite(manifestPath, buildDir string) func(path string) (string, error) {
 func homeHandler(i *inertia.Inertia) http.Handler {
 	fn := func(w http.ResponseWriter, r *http.Request) {
 		err := i.Render(w, r, "Home/Index", inertia.Props{
-			"text": "Inertia.js with Vue.js and Go! 💙",
+			"text": "Inertia.js with React and Go! 💚",
 		})
 		if err != nil {
 			handleServerErr(w, err)
