@@ -1,2 +1,6 @@
 github.com/romsar/gonertia v1.1.4 h1:M6DHcGlkzti/QAJqtObv3BUvp3BcGJddrMJ2fafDwNQ=
 github.com/romsar/gonertia v1.1.4/go.mod h1:4B9dtHbxdbUDZimnGmaIojrC37RYjTMOuTZpeo4jZ0E=
+github.com/romsar/gonertia v1.3.5 h1:RGMitib42oNWE9P79SQNhUK1afbBeS9TrkBkWtxkpjE=
+github.com/romsar/gonertia v1.3.5/go.mod h1:aFqeLl9P8/zQ/aMfLz8iDj8gZWiNsooHFajj3b1VsYA=
+github.com/romsar/gonertia/v2 v2.0.6 h1:27IKiAA2+BMujLDHtnCcMwAVWqcXwV+LjQmDhBIZf68=
+github.com/romsar/gonertia/v2 v2.0.6/go.mod h1:8DOQfQz9D1GHd5M6BtXsaF+CIovjXOx/tVna2LcazvA=

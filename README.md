@@ -7,7 +7,7 @@ This is inspired by [Vue Example w/ Gonertia](https://github.com/henrriusdev/gon
 ## Install
 
 ```sh
-npm install # or yarn
+pnpm i
 go mod tidy
 ```
 
@@ -16,7 +16,7 @@ go mod tidy
 1. Run the vite dev server
 
 ```sh
-npm run dev
+pnpm run dev
 ```
     
 3. In a separate terminal, watch for changes in backend
