@@ -25,6 +25,8 @@ pnpm run dev
 air
 ```
 
+4. Open in terminal
+
 ## How to contribute
 
 - Create a local branch or fork
